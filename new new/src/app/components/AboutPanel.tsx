@@ -65,29 +65,6 @@ export function AboutPanel() {
         </div>
       </section>
 
-      {/* О генетическом алгоритме */}
-      <section className="mb-8">
-        <h3 className="text-2xl font-semibold text-indigo-800 mb-4">О генетическом алгоритме в игре</h3>
-        <div className="space-y-3 text-gray-700">
-          <p>
-            В данной реализации используется <strong>генетический алгоритм</strong> — метод оптимизации, 
-            вдохновленный процессом естественного отбора. ГА эволюционирует популяцию возможных решений, 
-            используя операции селекции, скрещивания и мутации.
-          </p>
-          <div className="bg-indigo-50 p-4 rounded-lg">
-            <h4 className="font-semibold mb-2 text-indigo-900">Основные компоненты:</h4>
-            <ul className="list-disc list-inside space-y-1 text-sm">
-              <li><strong>Популяция:</strong> 150 случайных 4-значных чисел</li>
-              <li><strong>Приспособленность:</strong> минимизация штрафов за несовпадение быков/коров с историей</li>
-              <li><strong>Селекция:</strong> турнирная селекция (8 кандидатов)</li>
-              <li><strong>Скрещивание:</strong> одноточечное со случайным заполнением дубликатов</li>
-              <li><strong>Мутация:</strong> перестановка или замена случайной цифры (20%)</li>
-              <li><strong>Элитизм:</strong> сохранение 15 лучших особей (10%)</li>
-            </ul>
-          </div>
-        </div>
-      </section>
-
       {/* Авторство */}
       <section className="bg-gradient-to-r from-indigo-100 to-purple-100 p-6 rounded-lg border-2 border-indigo-300">
         <h3 className="text-2xl font-semibold text-indigo-900 mb-3 text-center">Автор проекта</h3>
